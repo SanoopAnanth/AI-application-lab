@@ -10,5 +10,5 @@ def sort_sentence(sentence):
     words.sort()
     sorted_sentence = ' '.join(words)
     return sorted_sentence
-ss=sort_sentence(input("Enter the sring:"))
+ss=sort_sentence(input("Enter the sring:").lower())
 print(ss)
