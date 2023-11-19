@@ -1,0 +1,222 @@
+[
+    {
+        "input": "I need a new car. What do you recommend?",
+        "output": "Sure, I can help you with that. What is your budget and preferred type of car (e.g., sedan, SUV, sports car)?"
+    },
+    {
+        "input":"Hi",
+        "output":"Hello!, how can I help you"
+    },
+    {
+        "input":"Good Morning",
+        "output":"Good Morning, I'm your personalized chatbot"
+    },
+    {
+        "input":"Good Evening",
+        "output":"Good evening how may i help you"
+    },
+    {
+        "input":"Good Afternoon",
+        "output":"Good Afternoon, I'm your personalized chatbot"
+    },
+    {
+        "input":"Good Night",
+        "output":"Good Night, sleep tight"
+    },
+    {
+        "input":"I need a high performance car",
+        "output":"The brands that are available is Mahindra, Volkswaegon, Skoda. Please enter a brand from the shown list"
+    },
+    {
+        "input":"high performance car by Mahindra",
+        "output":{
+            "recommendations":[
+                {
+                    "make":"Mahindra\n",
+                    "model":"XUV300\n",
+                    "price":"13,00,000\n",
+                    "KMPL":
+                    {
+                        "city":"11.2",
+                        "highway":"18.2"
+                    },
+                    "safety_rating":"5 stars\n",
+                    "description":"Mahindra XUV300 TurboSport price for the base model starts at Rs. 9.29 Lakh and the top model price goes upto Rs. 13.14 Lakh (Avg. ex-showroom)\n"
+
+                }
+            ]
+        }
+    },
+    {
+        "input":"high performance car by Volkswagen",
+        "output":{
+            "recommendations":[
+                {
+                    "make":"Volkswagen\n",
+                    "model":"Polo GT\n",
+                    "price":"10,24,000\n",
+                    "KMPL":
+                    {
+                        "city":"10.2",
+                        "highway":"16.4"
+                    },
+                    "safety_rating":"3 stars\n",
+                    "description": "Volkswagen Polo GT is the top model in the Polo lineup and the price of Polo top model is Rs. 10.24 Lakh. It gives a mileage of 16.47 kmpl. Volkswagen Polo GT is available in Automatic (TC) transmission and offered in 5 colours: Carbon Steel , Reflex Silver, Sunset Red, Flash Red and Candy White.\n"
+                }
+            ]
+        }
+    },
+    {
+        "input":"high performance car by skoda",
+        "output":{
+            "recommendations":[
+                {
+                    "make":"Skoda",
+                    "model":"Octavia",
+                    "price":"30,45,000",
+                    "KMPL":{
+                        "city":"8.11",
+                        "highway":"11.2"
+                    },
+                    "safety_rating":"5 stars\n",
+                    "description":"The Skoda Octavia has 1 Petrol Engine on offer. The Petrol engine is 1984 cc . It is available with Automatic transmission. Depending upon the variant and fuel type the Octavia has a mileage of 15.81 kmpl & Ground clearance of Octavia is 137mm.\n"
+                }
+            ]
+        }
+    },
+    {
+        "input":"I need car safety rating",
+        "output":"Safety is a must while considering cars. We only sell brands like volvo, mahindra, tata, volkswagen, skoda. Please select one brand"
+    },
+    {
+        "input":"Safer car by volvo",
+        "output":{
+            "recommendations":[
+                {
+                    "make":"Volvo India PVT Limited",
+                    "model":"XC90",
+                    "price":"1,24,00,000",
+                    "KMPL":{
+                        "city":"19",
+                        "highway":"22"
+                    },
+                    "safety_rating":"5 stars",
+                    "description":"The Volvo XC90 has 1 Petrol Engine on offer. The Petrol engine is 1969 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the XC90 has a mileage of 17.2 kmpl & Ground clearance of XC90 is 223mm. The XC90 is a 7 seater 4 cylinder car and has length of 4953mm, width of 2140mm and a wheelbase of 2984."
+                }
+            ]
+        }
+    },
+    {
+        "input":"Safer car by Mahindra",
+        "output":{
+            "recommendations":[
+                {
+                    "make":"Mahindra India",
+                    "model":"Scorpio N",
+                    "price":"24,00,000",
+                    "KMPL":{
+                        "city":"9",
+                        "highway":"11"
+                    },
+                    "safety_rating":"5 stars",
+                    "description":"Scorpio N mileage reported by users is 9.50 kmpl for city driving and 12.00 kmpl for highway driving. Scorpio N Petrol mileage (user reported) is 8.00 kmpl for city driving and 11.00 kmpl for highway driving. Scorpio N Petrol comes with a 57-litre fuel tank. Scorpio N Diesel mileage (user reported) is 11.00 kmpl for city driving and 13.00 kmpl for highway driving. Scorpio N Diesel comes with a 57-litre fuel tank"
+                }
+            ]
+        }
+    },
+    {
+        "input":"Safer car by tata",
+        "output":{
+            "recommendations":[
+                {
+                    "make":"Tata Motors PVT limited",
+                    "model":"Harrier",
+                    "price":"24,00,000",
+                    "KMPL":{
+                        "city":"8.11",
+                        "highway":"11"
+                    },
+                    "safety_rating":"5 stars",
+                    "description":"Tata has equipped the SUV with amenities such as a 10.25-inch touchscreen infotainment system with Android Auto and Apple CarPlay, a 7-inch digital driver’s display. It also gets a 6-way power-adjustable driver seat with memory and welcome function, a panoramic sunroof, wireless phone charging, and rain-sensing wipers."
+                }
+            ]
+        }
+    },
+    {
+        "input":"Safer car volkswagen",
+        "output":{
+            "recommendations":[
+                {
+                    "make":"Volkswagen\n",
+                    "model":"Tiguan",
+                    "price":"18,95,000",
+                    "KMPL":{
+                        "city":"18",
+                        "highway":"20"
+                    },
+                    "safety_rating":"5 stars",
+                    "description":"The 2023 Taigun is a compact SUV that embodies Volkswagen in every possible manner, right from the way it drives, to the way it feels and appears"
+                }
+            ]
+        }
+    },
+    {
+        "input":"Safer car skoda",
+        "output":{
+            "recommendations":[
+                {
+                    "make":"Skoda India",
+                    "model":"Skoda Kodiaq",
+                    "price":"41,95,000",
+                    "KMPL":{
+                        "city":"12",
+                        "highway":"10"
+                    },
+                    "safety_rating":"5 stars",
+                    "description":"It is available in 3 variants, with an engine of 1984 cc and a choice of 1 transmission: Automatic. Kodiaq has an NCAP rating of 5 stars and comes with 9 airbags. Skoda Kodiaq has a ground clearance of 140 mm and is available in 6 colours"
+                }
+            ]
+        }
+    },
+    {
+        "input":"i need a car which is fuel effecient",
+        "output":"It is good to consider vehicles which are fuel effecient as fuel is expensive. When it comes to fuel effeciency we have brands like Maruti Suzuki and volvo. Please select one"
+    },
+    {
+        "input":"fuel efficent car by maruti suzuki",
+        "output":{
+            "recommendations":[
+                {
+                    "make":"Maruti Suzuki",
+                    "model":"Swift dzire",
+                    "price":"10,00,000",
+                    "KMPL":{
+                        "city":"18",
+                        "highway":"23"
+                    },
+                    "safety_rating":"0 star",
+                    "description":"It is one of the family friendly car used for it's efficiency and it's reliability"
+                }
+            ]
+        }
+    },
+    {
+        "input":"fuel efficient car by volvo",
+        "output":{
+            "recommendations":[
+                {
+                    "make":"Volvo India PVT Limited",
+                    "model":"XC90",
+                    "price":"1,24,00,000",
+                    "KMPL":{
+                        "city":"19",
+                        "highway":"22"
+                    },
+                    "safety_rating":"5 stars",
+                    "description":"The Volvo XC90 has 1 Petrol Engine on offer. The Petrol engine is 1969 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the XC90 has a mileage of 17.2 kmpl & Ground clearance of XC90 is 223mm. The XC90 is a 7 seater 4 cylinder car and has length of 4953mm, width of 2140mm and a wheelbase of 2984."
+                }
+            ]
+        }
+    }
+   
+]

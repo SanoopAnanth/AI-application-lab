@@ -1,0 +1,28 @@
+The proper application of the bioinformatics components involves 
+evaluating data and interpreting results in a biologically relevant 
+manner, such as data from next-generation DNA sequencing, protein 
+sequencing, RNA sequencing (RNA-Seq), gene expression profiles, and 
+metabolic pathways, and molecular markers. The most widely used 
+software/tools for large biological data include, Strand NGS, CLC Genomics Workbench, Lasergene Genomics Suite, NextGENe, Partek Genomics Suite, Genomatix, FreeBayes, Nanopore, GenomeComb, SIFT, 
+PANTHER, Genome Track Analyzer, etc. Strand NGS is an integrated 
+platform that provides tools for analyzing, managing, and visualizing 
+next-generation sequencing data (https://www.strand-ngs.com/fea 
+tures). In addition to supporting RNA-Seq and DNA-Seq workflows 
+[11], it supports microRNA-Seq protocols [12] as well as protocols, for 
+variant calling [13]. The CLC Genomics Workbench (QIAGEN) provides 
+a comprehensive analysis package for analyzing and visualizing NGS 
+data. Additionally, it includes all the sequence analysis tools of CLC 
+Main Workbench. Several studies have reported the use of the CLC genomics workbench for the NGS data analysis including de novo assembly 
+and RNA-Seq data analysis [14], mitochondrial DNA analysis [15], etc. 
+All bioinformatics tools mentioned above have been used by many researchers for high throughput analysis of whole genome sequencing, 
+transcriptome analysis, metagenomics, and metabarcoding data 
+[16–18]. 
+Bioinformatics software and sequencing technologies have transformed biomedical research in aquaculture and fisheries sectors to 
+address aquaculture and fisheries issues. NGS technology and other 
+bioinformatics tools are becoming increasingly affordable. On the other 
+hand, gathering a tremendous amount of genome data in the form of 
+millions or billions of short reads, annotating the genome, identifying 
+nucleotide variations, classifying RNA molecules, and identifying molecular markers in a specific genome, among other things, remains 
+problematic. Fortunately, with the advance in bioinformatics, several 
+new software and tools are available for researchers to tackle these issues in aquaculture. Several applications of bioinformatics in aquaculture are given in Fig. 2. In this background, this review will highlight the 
+possibilities of bioinformatics tools and their applications in the aquaculture industry
